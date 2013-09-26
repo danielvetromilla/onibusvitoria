@@ -38,8 +38,8 @@ body {
     $.each(obj, function(id, attr) {
       ponto = {
         "type": "Feature",
+        "id": id,
         "properties": {
-          "id": id,
           "numero": attr[0],
           "bairro": attr[1],
           "endereco": attr[2],
