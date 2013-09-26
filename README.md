@@ -1,7 +1,7 @@
 Dados Ônibus Vitória
 ==================
 
-Dados abertos dos ônibus de [Vitória, ES](http://pt.wikipedia.org/Vitória).
+Dados abertos dos ônibus de [Vitória, ES](http://pt.wikipedia.org/wiki/Vit%C3%B3ria_(Esp%C3%ADrito_Santo).
 
 Objetivo
 ------------------
