@@ -1,3 +1,18 @@
 {
-
+    "last_stops" : [{
+        "stop_name" : "Jardim Camburi",
+        "bus_routes": ["103", "121", "160", "164", "211", "241", "290", "310"]
+    }, {
+        "stop_name" : "Mário Cyprestes",
+        "bus_routes": ["103", "110", "121", "161", "164", "182", "204", "241", "290"]
+    }, {
+        "stop_name" : "Rodoviária",
+        "bus_routes": ["101", "112", "122", "151", "160", "171", "172", "173", "175", "184", "210"]
+    }, {
+        "stop_name" : "Santo Antônio",
+        "bus_routes": ["051", "052", "212", "302"]
+    }, {
+        "stop_name" : "Tabuazeiro",
+        "bus_routes": ["173", "181", "073N", "073S"]
+    }]
 }
