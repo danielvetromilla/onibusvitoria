@@ -1,6 +1,7 @@
 {
     "lines" : {
-        "010" : {
+        "0010" : {
+            "line_num"        : "010",
             "line_name"       : "Nova Palestina / Fradinhos",
             "last_stop"       : "Fradinhos",
             "last_updated_in" : "2013-12-27",
@@ -16,7 +17,8 @@
                                "14:45", "15:25", "16:15", "16:55", "17:45", "18:25", "19:05", "19:50"]
             }
         },
-        "031" : {
+        "0031" : {
+            "line_num"        : "031",
             "line_name"       : "São Benedito / Ilha do Príncipe via Reta da Penha",
             "last_stop"       : "Ilha do Príncipe",
             "last_updated_in" : "2013-12-27",
@@ -33,7 +35,8 @@
                                "16:00", "16:50", "18:20", "19:10", "20:30"]
             }
         },
-        "164" : {
+        "0164" : {
+            "line_num"        : "164",
             "line_name"       : "Mário Cyprestes / Jardim Camburi",
             "last_stop"       : "Mário Cyprestes",
             "last_updated_in" : "2013-12-26",
@@ -51,6 +54,7 @@
             }
         },
         "332" : {
+            "line_num"        : "332",
             "line_name"       : "Curva da Jurema / Resistência",
             "last_stop"       : "Resistência",
             "last_updated_in" : "2013-12-27",
