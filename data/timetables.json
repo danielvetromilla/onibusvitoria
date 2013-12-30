@@ -2,7 +2,8 @@
     "lines" : {
         "0010" : {
             "number"          : "010",
-            "name"            : "Nova Palestina / Fradinhos",
+            "full_name"       : "Nova Palestina / Fradinhos",
+            "short_name"      : "Nova Palestina / Fradinhos",
             "final_stop"      : "Fradinhos",
             "last_updated_in" : "2013-12-27",
             "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0010",
@@ -81,7 +82,8 @@
         },
         "332" : {
             "number"          : "332",
-            "name"            : "Curva da Jurema / Resistência",
+            "full_name"       : "Curva da Jurema / Resistência",
+            "short_name"      : "Curva da Jurema / Resistência",
             "final_stop"      : "Resistência",
             "last_updated_in" : "2013-12-27",
             "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=332",
