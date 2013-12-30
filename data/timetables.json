@@ -3,7 +3,7 @@
         "0010" : {
             "line_num"        : "010",
             "line_name"       : "Nova Palestina / Fradinhos",
-            "last_stop"       : "Fradinhos",
+            "final_stop"      : "Fradinhos",
             "last_updated_in" : "2013-12-27",
             "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0010",
             "timetable" : {
@@ -20,7 +20,7 @@
         "0031" : {
             "line_num"        : "031",
             "line_name"       : "São Benedito / Ilha do Príncipe via Reta da Penha",
-            "last_stop"       : "Ilha do Príncipe",
+            "final_stop"      : "Ilha do Príncipe",
             "last_updated_in" : "2013-12-27",
             "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0031",
             "timetable" : {
@@ -38,7 +38,7 @@
         "0164" : {
             "line_num"        : "164",
             "line_name"       : "Mário Cyprestes / Jardim Camburi",
-            "last_stop"       : "Mário Cyprestes",
+            "final_stop"      : "Mário Cyprestes",
             "last_updated_in" : "2013-12-26",
             "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0164",
             "timetable" : {
@@ -56,7 +56,7 @@
         "332" : {
             "line_num"        : "332",
             "line_name"       : "Curva da Jurema / Resistência",
-            "last_stop"       : "Resistência",
+            "final_stop"      : "Resistência",
             "last_updated_in" : "2013-12-27",
             "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=332",
             "timetable" : {
