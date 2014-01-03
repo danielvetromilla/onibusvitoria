@@ -1,4 +1,4 @@
-# Dados Ônibus Cidade de Vitória
+# Ônibus Cidade de Vitória
 
 Dados estruturados dos ônibus da cidade de [Vitória/ES](http://pt.wikipedia.org/wiki/Vit%C3%B3ria_(Esp%C3%ADrito_Santo).
 
