@@ -6,8 +6,7 @@ Dados estruturados dos ônibus da cidade de [Vitória/ES](http://pt.wikipedia.or
 
 Tornar o acesso fácil a informações sobre transporte público na cidade de Vitória. Coletar, organizar e corrigir informações sobre pontos de ônibus, linhas, itinerários, horários e etc.
 
-Permitir a utilização dos dados para visualização de dados, criação de gráficos, tabelas, animações
-mashups e outras formas de exibir o conteúdo utilizando formatos padrões como [GeoJSON](http://geojson.org/) e YAML.
+Permitir a utilização dos dados para visualização de dados, criação de gráficos (via D3.js, Paper.js, Processing e etc), tabelas, animações, mashups e outras formas de exibir o conteúdo utilizando formatos padrões como [GeoJSON](http://geojson.org/) e [YAML](http://www.yaml.org/).
 
 ## Arquivos
 
