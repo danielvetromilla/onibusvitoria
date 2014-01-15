@@ -1,7 +1,10 @@
 {
     "data" : {
         "0121" : {
-            "last_updated_in" : "2013-12-30",
+            "meta" : {
+                
+            },
+
             "circular"        : false,
             "express_service" : false,
             "night_owl"       : false,
