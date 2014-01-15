@@ -1,12 +1,33 @@
 {
-    "lines" : {
+    "data" : {
         "0010" : {
-            "number"          : "010",
-            "full_name"       : "Nova Palestina / Fradinhos",
-            "short_name"      : "Nova Palestina / Fradinhos",
-            "final_stop"      : "Fradinhos",
-            "last_updated_in" : "2013-12-27",
-            "url"             : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0010",
+            "number"        : "010",
+            "name"          : "Nova Palestina / Fradinhos",
+            "short_name"    : "Nova Palestina / Fradinhos",
+            "via"           : null,
+            "circular"      : false,
+            "night_owl"     : false,
+            "express"       : false,
+            "final_stop"    : {
+                "id" : "001",
+                "name" : "Fradinhos"
+            },
+            "meta" : {
+                "last_updated"  : "2014-01-15",
+                "source_url"    : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0010",
+            },
+            "trips"     : [
+                {
+                    "headsign"  : "010 Nova Palestina",
+                    "shape_id"  : null,
+                    "route"     : []
+                },
+                {
+                    "headsign"  : "010 Fradinhos",
+                    "shape_id"  : null,
+                    "route"     : []
+                }
+            ],
             "timetable" : {
                 "weekdays"  : ["06:00", "06:25", "06:50", "07:15", "07:40", "08:05", "08:35", "09:05", "09:50", "10:20",
                                "10:55", "11:25", "12:05", "12:30", "13:10", "13:35", "14:00", "14:25", "14:55", "15:25",
