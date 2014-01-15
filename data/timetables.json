@@ -14,7 +14,7 @@
             },
             "meta" : {
                 "last_updated"  : "2014-01-15",
-                "source_url"    : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0010",
+                "source_url"    : "http://sistemas.vitoria.es.gov.br/redeiti/listarHorario.cfm?cdLinha=0010"
             },
             "trips"     : [
                 {
