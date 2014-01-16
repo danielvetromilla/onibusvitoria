@@ -8,6 +8,17 @@ Tornar o acesso fácil a informações sobre transporte público na cidade de Vi
 
 Permitir a utilização dos dados para visualização de dados, criação de gráficos (via D3.js, Paper.js, Processing e etc), tabelas, animações, mashups e outras formas de exibir o conteúdo utilizando formatos padrões como [GeoJSON](http://geojson.org/) e [YAML](http://www.yaml.org/).
 
+## Como contribuir
+
+Você pode ajudar esse projeto corrigindo informações, informando bugs, criando documentação, divulgando, desenolvendo uma API, sugerindo novas ideias, entre outras mais. Alguns exemplos:
+
+- Adicionar tabelas de horário
+- Mapear os trajetos das linhas
+- Corrigir erros de digitação
+- Atualizar informações gerais
+- Desenvolver uma API externa para consulta
+- Criar um website para referência e documentação
+
 ## Arquivos
 
 - [stops.geojson](data/stops.geojson) - localização dos pontos de ônibus da cidade.
