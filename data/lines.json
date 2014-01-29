@@ -1,17 +1,92 @@
 {
     "data" : {
-        "0121" : {
-            "meta" : {
-                "last_updated" : "2014-01-15"
+        "0010" : {
+            "full_name" : "Nova Palestina / Fradinhos"
+        },
+        "0031" : {
+            "full_name" : "São Benedito / Ilha do Príncipe via Reta da Penha"
+        },
+        "031A" : {
+            "full_name" : "São Benedito / Morro do Pinto via Mário Cyprestes"
+        },
+        "0051" : {
+            "full_name" : "Santo Antônio / Consolação / Itararé"
+        },
+        "0052" : {
+            "full_name" : "Santo Antônio / Itararé / Consolação"
+        },
+        "0071" : {
+            "full_name" : "São Pedro / Maruípe / Centro (Circular)"
+        },
+        "0072" : {
+            "full_name"  : "São Pedro / Centro / Maruípe (Circular)",
+            "name"       : "São Pedro / Centro / Maruípe",
+            "via"        : null,
+            "circular"   : true,
+            "express"    : false,
+            "night_owl"  : false,
+            "final_stop" : {
+                "id"   : null,
+                "name" : "São Pedro"
             },
-            "name"          : "Mário Cyprestes / Jardim Camburi via Reta da Penha",
-            "short_name"    : "Mário Cyprestes / Jardim Camburi",
-            "via"           : "Reta da Penha",    
-            "circular"      : false,
-            "express"       : false,
-            "night_owl"     : false,
-            "final_stop"    : {
-                "id" : null,
+            "trips" : [
+                {
+                    "headsign" : "072 São Pedro (Circular)",
+                    "shape_id" : null,
+                    "route"  : ["0234", "389 ", "0130", "0131", "0132", "0216", "0100", "2512", "0134", "0135",
+                               "0107", "0150", "0106", "0136", "0137", "0160", "0130", "0156", "0130", "1517",
+                               "0151", "389 ", "0234"]
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-01-15"
+        },
+        "073N" : {
+            "full_name" : "Tabuazeiro / Bairro da Penha via Beira Mar (Norte)"
+        },
+        "073S" : {
+            "full_name" : "Tabuazeiro / Jucutuquara via Beira Mar (Sul)"
+        },
+        "0074" : {
+            "full_name" : "São Cristóvão / Bairro da Penha (Circular)"
+        },
+        "0101" : {
+            "full_name" : "Praia do Canto / Rodoviária"
+        },
+        "0102" : {
+            "full_name" : "Santa Tereza / Jesus de Nazaré"
+        },
+        "0103" : {
+            "full_name" : "Mário Cyprestes / Jardim Camburi via Caratoíra"
+        },
+        "0104" : {
+            "full_name" : "Santos Dumont / Bela Vista"
+        },
+        "0105" : {
+            "full_name" : "Curva da Jurema / Cruzamento via Romão"
+        },
+        "0110" : {
+            "full_name" : "Mário Cyprestes / Atlântica Ville via Reta da Penha"
+        },
+        "0111" : {
+            "full_name" : "Bairro do Moscoso / Atlântica Ville"
+        },
+        "0112" : {
+            "full_name" : "Maria Ortiz / Rodoviária via Av. Vitória"
+        },
+        "0121" : {
+            "full_name"  : "Mário Cyprestes / Jardim Camburi via Reta da Penha",
+            "name"       : "Mário Cyprestes / Jardim Camburi",
+            "via"        : "Reta da Penha",
+            "circular"   : false,
+            "express"    : false,
+            "night_owl"  : false,
+            "final_stop" : {
+                "id"  : null,
                 "name" : "Mário Cyprestes"
             },
             "trips" : [
@@ -37,30 +112,125 @@
                 "weekdays"  : [],
                 "saturday"  : [],
                 "sunday"    : []
-            }
+            },
+            "last_updated" : "2014-01-15"
         },
-        "0072" : {
-            "meta" : {
-                "last_updated" : "2014-01-15"
-            },
-            "name"          : "São Pedro / Centro / Maruípe (Circular)",
-            "short_name"    : "São Pedro / Centro / Maruípe",
-            "circular"      : true,
-            "express"       : false,
-            "night_owl"     : false,
-            "final_stop" : {
-                "id" : null,
-                "name" : "São Pedro"
-            },
-            "trips" : [
-                {
-                    "headsign" : "072 São Pedro (Circular)",
-                    "shape_id" : null,
-                    "route"  : ["0234", "389 ", "0130", "0131", "0132", "0216", "0100", "2512", "0134", "0135",
-                               "0107", "0150", "0106", "0136", "0137", "0160", "0130", "0156", "0130", "1517",
-                               "0151", "389 ", "0234"]
-                }
-            ]
+        "0122" : {
+            "full_name" : "Aeroporto / Rodoviária via Av. Vitória"
+        },
+        "0123" : {
+            "full_name" : "Bairro República / Bela Vista"
+        },
+        "0124" : {
+            "full_name" : "Jardim da Penha / Estrelinha"
+        },
+        "0125" : {
+            "full_name" : "Alto Tabuazeiro / Fonte Grande"
+        },
+        "0130" : {
+            "full_name" : "Resistência / Jardim da Penha (Noturno)"
+        },
+        "0151" : {
+            "full_name" : "Santa Marta / Rodoviária"
+        },
+        "0160" : {
+            "full_name" : "Jardim Camburi / Rodoviária (Noturno)"
+        },
+        "0161" : {
+            "full_name" : "Mário Cyprestes / Atlântica Ville via Maruípe"
+        },
+        "0163" : {
+            "full_name" : "Aeroporto / Maria Ortiz / Parque Moscoso"
+        },
+        "0164" : {
+            "full_name" : "Mário Cyprestes / Jardim Camburi via Marechal Campos"
+        },
+        "0171" : {
+            "full_name" : "Joana D'Arc / Rodoviária"
+        },
+        "0172" : {
+            "full_name" : "Itararé / Rodoviária"
+        },
+        "0173" : {
+            "full_name" : "Tabuazeiro / Rodoviária"
+        },
+        "0175" : {
+            "full_name" : "Resistência / Rodoviária"
+        },
+        "0181" : {
+            "full_name" : "Grande Vitória / Tabuazeiro via Bairro Universitário"
+        },
+        "0182" : {
+            "full_name" : "Mário Cyprestes / Bairro da Penha via Alagoano"
+        },
+        "0184" : {
+            "full_name" : "Jardim da Penha / Rodoviária via Maruípe"
+        },
+        "0200" : {
+            "full_name" : "Santo André / Curva da Jurema via Beira Mar (Férias)"
+        },
+        "0201" : {
+            "full_name" : "Curva da Jurema / Bela Vista"
+        },
+        "0202" : {
+            "full_name" : "Caratoíra / Shopping Vitória"
+        },
+        "0203" : {
+            "full_name" : "Santa Clara / Ilha do Boi via Parque Moscoso"
+        },
+        "0204" : {
+            "full_name" : "Mário Cyprestes / Jaburu"
+        },
+        "0210" : {
+            "full_name" : "Goiabeiras / Rodoviária (Noturno)"
+        },
+        "0211" : {
+            "full_name" : "Santo André / Jardim Camburi"
+        },
+        "0212" : {
+            "full_name" : "Aeroporto / Santo Antônio via Beira Mar"
+        },
+        "0213" : {
+            "full_name" : "Grande Vitória / Mata da Praia"
+        },
+        "0214" : {
+            "full_name" : "Bento Ferreira / Goiabeiras via Shopping Vitória"
+        },
+        "0241" : {
+            "full_name" : "Mário Cyprestes / Jardim Camburi via Leitão da Silva"
+        },
+        "0290" : {
+            "full_name" : "Mário Cyprestes / Jardim Camburi via Beira Mar"
+        },
+        "0300" : {
+            "full_name" : "Santo André / Curva da Jurema via Reta da Penha (Férias)"
+        },
+        "0302" : {
+            "full_name" : "Santo Antônio / Jardim da Penha"
+        },
+        "302E" : {
+            "full_name" : "São Pedro / Jardim da Penha (Expresso)"
+        },
+        "0303" : {
+            "full_name" : "Conquista / Goiabeiras"
+        },
+        "0310" : {
+            "full_name" : "Santo Antônio / Jardim Camburi"
+        },
+        "0331" : {
+            "full_name" : "Ilha das Caieiras / Praia do Suá via Shopping Vitória"
+        },
+        "0332" : {
+            "full_name" : "Curva da Jurema / Resistência"
+        },
+        "0333" : {
+            "full_name" : "Ilha das Caieiras / Praia do Suá via Jucutuquara"
+        },
+        "333E" : {
+            "full_name" : "Ilha das Caieiras / Praia do Suá (Expresso)"
+        },
+        "0370" : {
+            "full_name" : "Resistência / Bento Ferreira"
         }
     }
 }
