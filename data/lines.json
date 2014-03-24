@@ -1,30 +1,173 @@
 {
     "data" : {
         "0010" : {
-            "full_name" : "Nova Palestina / Fradinhos"
+            "full_name"  : "Nova Palestina / Fradinhos",
+            "name"       : "Nova Palestina / Fradinhos",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "010 Nova Palestina",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "010 Fradinhos",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0031" : {
-            "full_name" : "São Benedito / Ilha do Príncipe via Reta da Penha"
+            "full_name"  : "São Benedito / Ilha do Príncipe via Reta da Penha",
+            "name"       : "São Benedito / Ilha do Príncipe",
+            "via"        : "Reta da Penha",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "031 São Benedito",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "Ilha do Príncipe",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "031A" : {
-            "full_name" : "São Benedito / Morro do Pinto via Mário Cyprestes"
+            "full_name"  : "São Benedito / Morro do Pinto via Mário Cyprestes",
+            "name"       : "São Benedito / Morro do Pinto",
+            "via"        : "Mário Cyprestes",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "031A São Benedito",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "031A Morro do Pinto",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0051" : {
-            "full_name" : "Santo Antônio / Consolação / Itararé"
+            "full_name"  : "Santo Antônio / Consolação / Itararé",
+            "name"       : "Santo Antônio / Consolação / Itararé",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "051 Santo Antônio",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "051 Itararé",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0052" : {
-            "full_name" : "Santo Antônio / Itararé / Consolação"
+            "full_name"  : "Santo Antônio / Itararé / Consolação",
+            "name"       : "Santo Antônio / Itararé / Consolação",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "052 Santo Antônio",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "052 Consolação",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0071" : {
-            "full_name" : "São Pedro / Maruípe / Centro (Circular)"
+            "full_name"  : "São Pedro / Maruípe / Centro (Circular)",
+            "name"       : "São Pedro / Maruípe / Centro",
+            "via"        : null,
+            "type"       : "circular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "071 São Pedro (Circular)",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0072" : {
             "full_name"  : "São Pedro / Centro / Maruípe (Circular)",
             "name"       : "São Pedro / Centro / Maruípe",
             "via"        : null,
-            "circular"   : true,
-            "express"    : false,
-            "night_owl"  : false,
+            "type"       : "circular",
             "final_stop" : {
                 "id"   : null,
                 "name" : "São Pedro"
@@ -33,9 +176,9 @@
                 {
                     "headsign" : "072 São Pedro (Circular)",
                     "shape_id" : null,
-                    "route"  : ["0234", "389 ", "0130", "0131", "0132", "0216", "0100", "2512", "0134", "0135",
-                               "0107", "0150", "0106", "0136", "0137", "0160", "0130", "0156", "0130", "1517",
-                               "0151", "389 ", "0234"]
+                    "route"    : ["0234", "389 ", "0130", "0131", "0132", "0216", "0100", "2512", "0134", "0135",
+                                  "0107", "0150", "0106", "0136", "0137", "0160", "0130", "0156", "0130", "1517",
+                                  "0151", "389 ", "0234"]
                 }
             ],
             "timetable" : {
@@ -46,45 +189,303 @@
             "last_updated" : "2014-01-15"
         },
         "073N" : {
-            "full_name" : "Tabuazeiro / Bairro da Penha via Beira Mar (Norte)"
+            "full_name"  : "Tabuazeiro / Bairro da Penha via Beira Mar (Norte)",
+            "name"       : "Tabuazeiro / Bairro da Penha",
+            "via"        : "Beira Mar",
+            "type"       : "circular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "073S" : {
-            "full_name" : "Tabuazeiro / Jucutuquara via Beira Mar (Sul)"
+            "full_name"  : "Tabuazeiro / Jucutuquara via Beira Mar (Sul)",
+            "name"       : "Tabuazeiro / Jucutuquara",
+            "via"        : "Beira Mar",
+            "type"       : "circular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0074" : {
-            "full_name" : "São Cristóvão / Bairro da Penha (Circular)"
+            "full_name"  : "São Cristóvão / Bairro da Penha (Circular)",
+            "name"       : "São Cristóvão / Bairro da Penha",
+            "via"        : null,
+            "type"       : "circular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0101" : {
-            "full_name" : "Praia do Canto / Rodoviária"
+            "full_name"  : "Praia do Canto / Rodoviária",
+            "name"       : "Praia do Canto / Rodoviária",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "101 Praia do Canto",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "101 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0102" : {
-            "full_name" : "Santa Tereza / Jesus de Nazaré"
+            "full_name"  : "Santa Tereza / Jesus de Nazaré",
+            "name"       : "Santa Tereza / Jesus de Nazaré",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "102 Santa Tereza",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "102 Jesus de Nazaré",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0103" : {
-            "full_name" : "Mário Cyprestes / Jardim Camburi via Caratoíra"
+            "full_name"  : "Mário Cyprestes / Jardim Camburi via Caratoíra",
+            "name"       : "Mário Cyprestes / Jardim Camburi",
+            "via"        : "Caratoíra",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "103 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "103 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0104" : {
-            "full_name" : "Santos Dumont / Bela Vista"
+            "full_name"  : "Santos Dumont / Bela Vista",
+            "name"       : "Santos Dumont / Bela Vista",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "104 Santos Dumont",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "104 Bela Vista",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0105" : {
-            "full_name" : "Curva da Jurema / Cruzamento via Romão"
+            "full_name"  : "Curva da Jurema / Cruzamento via Romão",
+            "name"       : "Curva da Jurema / Cruzamento",
+            "via"        : "Romão",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "105 Curva da Jurema",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "105 Cruzamento",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0110" : {
-            "full_name" : "Mário Cyprestes / Atlântica Ville via Reta da Penha"
+            "full_name"  : "Mário Cyprestes / Atlântica Ville via Reta da Penha",
+            "name"       : "Mário Cyprestes / Atlântica Ville",
+            "via"        : "Reta da Penha",
+            "type"       : ["regular", "selective"],
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "110 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "110 Atlântica Ville",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0111" : {
-            "full_name" : "Bairro do Moscoso / Atlântica Ville"
+            "full_name"  : "Bairro do Moscoso / Atlântica Ville",
+            "name"       : "Bairro do Moscoso / Atlântica Ville",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "111 Bairro do Moscoso",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "111 Atlântica Ville",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0112" : {
-            "full_name" : "Maria Ortiz / Rodoviária via Av. Vitória"
+            "full_name"  : "Maria Ortiz / Rodoviária via Av. Vitória",
+            "name"       : "Maria Ortiz / Rodoviária",
+            "via"        : "Av. Vitória",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "112 Maria Ortiz",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "112 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0121" : {
             "full_name"  : "Mário Cyprestes / Jardim Camburi via Reta da Penha",
             "name"       : "Mário Cyprestes / Jardim Camburi",
             "via"        : "Reta da Penha",
-            "circular"   : false,
-            "express"    : false,
-            "night_owl"  : false,
+            "type"       : "regular",
             "final_stop" : {
                 "id"  : null,
                 "name" : "Mário Cyprestes"
@@ -116,121 +517,1096 @@
             "last_updated" : "2014-01-15"
         },
         "0122" : {
-            "full_name" : "Aeroporto / Rodoviária via Av. Vitória"
+            "full_name"  : "Aeroporto / Rodoviária via Av. Vitória",
+            "name"       : "Aeroporto / Rodoviária",
+            "via"        : "Av. Vitória",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "122 Aeroporto",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "122 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0123" : {
-            "full_name" : "Bairro República / Bela Vista"
+            "full_name"  : "Bairro República / Bela Vista",
+            "name"       : "Bairro República / Bela Vista",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "123 Bairro República",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "123 Bela Vista",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0124" : {
-            "full_name" : "Jardim da Penha / Estrelinha"
+            "full_name"  : "Jardim da Penha / Estrelinha",
+            "name"       : "Jardim da Penha / Estrelinha",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "124 Jardim da Penha",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "124 Estrelinha",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0125" : {
-            "full_name" : "Alto Tabuazeiro / Fonte Grande"
+            "full_name"  : "Alto Tabuazeiro / Fonte Grande",
+            "name"       : "Alto Tabuazeiro / Fonte Grande",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "125 Alto Tabuazeiro",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "125 Fonte Grande",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0130" : {
-            "full_name" : "Resistência / Jardim da Penha (Noturno)"
+            "full_name"  : "Resistência / Jardim da Penha (Noturno)",
+            "name"       : "Resistência / Jardim da Penha",
+            "via"        : null,
+            "type"       : "night_owl",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "130 Resistência",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "130 Jardim da Penha",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0151" : {
-            "full_name" : "Santa Marta / Rodoviária"
+            "full_name"  : "Santa Marta / Rodoviária",
+            "name"       : "Santa Marta / Rodoviária",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "151 Santa Marta",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "151 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0160" : {
-            "full_name" : "Jardim Camburi / Rodoviária (Noturno)"
+            "full_name"  : "Jardim Camburi / Rodoviária (Noturno)",
+            "name"       : "Jardim Camburi / Rodoviária",
+            "via"        : null,
+            "type"       : "night_owl",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "160 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "160 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0161" : {
-            "full_name" : "Mário Cyprestes / Atlântica Ville via Maruípe"
+            "full_name"  : "Mário Cyprestes / Atlântica Ville via Maruípe",
+            "name"       : "Mário Cyprestes / Atlântica Ville",
+            "via"        : "Maruípe",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "161 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "161 Atlântica Ville",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0163" : {
-            "full_name" : "Aeroporto / Maria Ortiz / Parque Moscoso"
+            "full_name"  : "Aeroporto / Maria Ortiz / Parque Moscoso",
+            "name"       : "Aeroporto / Maria Ortiz / Parque Moscoso",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "163 Aeroporto",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "163 Parque Moscoso",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0164" : {
-            "full_name" : "Mário Cyprestes / Jardim Camburi via Marechal Campos"
+            "full_name"  : "Mário Cyprestes / Jardim Camburi via Marechal Campos",
+            "name"       : "Mário Cyprestes / Jardim Camburi",
+            "via"        : "Marechal Campos",
+            "type"       : "",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "164 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "164 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0171" : {
-            "full_name" : "Joana D'Arc / Rodoviária"
+            "full_name"  : "Joana D'Arc / Rodoviária",
+            "name"       : "Joana D'Arc / Rodoviária",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "171 Joana D'Arc",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "171 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0172" : {
-            "full_name" : "Itararé / Rodoviária"
+            "full_name"  : "Itararé / Rodoviária",
+            "name"       : "Itararé / Rodoviária",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "172 Itararé",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "172 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0173" : {
-            "full_name" : "Tabuazeiro / Rodoviária"
+            "full_name"  : "Tabuazeiro / Rodoviária",
+            "name"       : "Tabuazeiro / Rodoviária",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "173 Tabuazeiro",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "173 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0175" : {
-            "full_name" : "Resistência / Rodoviária"
+            "full_name"  : "Resistência / Rodoviária",
+            "name"       : "Resistência / Rodoviária",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "175 Resistência",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "175 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0181" : {
-            "full_name" : "Grande Vitória / Tabuazeiro via Bairro Universitário"
+            "full_name"  : "Grande Vitória / Tabuazeiro via Bairro Universitário",
+            "name"       : "Grande Vitória / Tabuazeiro",
+            "via"        : "Bairro Universitário",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "181 Grande Vitória",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "181 Tabuazeiro",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0182" : {
-            "full_name" : "Mário Cyprestes / Bairro da Penha via Alagoano"
+            "full_name"  : "Mário Cyprestes / Bairro da Penha via Alagoano",
+            "name"       : "Mário Cyprestes / Bairro da Penha",
+            "via"        : "Alagoano",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "182 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "182 Bairro da Penha",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0184" : {
-            "full_name" : "Jardim da Penha / Rodoviária via Maruípe"
+            "full_name"  : "Jardim da Penha / Rodoviária via Maruípe",
+            "name"       : "Jardim da Penha / Rodoviária",
+            "via"        : "Maruípe",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "184 Jardim da Penha",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "184 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0200" : {
-            "full_name" : "Santo André / Curva da Jurema via Beira Mar (Férias)"
+            "full_name"  : "Santo André / Curva da Jurema via Beira Mar (Férias)",
+            "name"       : "Santo André / Curva da Jurema",
+            "via"        : "Beira Mar",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "200 Santo André",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "200 Curva da Jurema",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0201" : {
-            "full_name" : "Curva da Jurema / Bela Vista"
+            "full_name"  : "Curva da Jurema / Bela Vista",
+            "name"       : "Curva da Jurema / Bela Vista",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "Curva da Jurema",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "Bela Vista",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0202" : {
-            "full_name" : "Caratoíra / Shopping Vitória"
+            "full_name"  : "Caratoíra / Shopping Vitória",
+            "name"       : "Caratoíra / Shopping Vitória",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "202 Caratoíra",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "202 Shopping Vitória",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0203" : {
-            "full_name" : "Santa Clara / Ilha do Boi via Parque Moscoso"
+            "full_name"  : "Santa Clara / Ilha do Boi via Parque Moscoso",
+            "name"       : "Santa Clara / Ilha do Boi",
+            "via"        : "Parque Moscoso",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "203 Santa Clara",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "203 Ilha do Boi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0204" : {
-            "full_name" : "Mário Cyprestes / Jaburu"
+            "full_name"  : "Mário Cyprestes / Jaburu",
+            "name"       : "Mário Cyprestes / Jaburu",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "204 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "204 Jaburu",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0210" : {
-            "full_name" : "Goiabeiras / Rodoviária (Noturno)"
+            "full_name"  : "Goiabeiras / Rodoviária (Noturno)",
+            "name"       : "Goiabeiras / Rodoviária",
+            "via"        : null,
+            "type"       : "night_owl",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "210 Goiabeiras",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "210 Rodoviária",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0211" : {
-            "full_name" : "Santo André / Jardim Camburi"
+            "full_name"  : "Santo André / Jardim Camburi",
+            "name"       : "Santo André / Jardim Camburi",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "211 Santo André",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "211 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0212" : {
-            "full_name" : "Aeroporto / Santo Antônio via Beira Mar"
+            "full_name"  : "Aeroporto / Santo Antônio via Beira Mar",
+            "name"       : "Aeroporto / Santo Antônio",
+            "via"        : "Beira Mar",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "212 Aeroporto",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "212 Santo Antônio",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0213" : {
-            "full_name" : "Grande Vitória / Mata da Praia"
+            "full_name"  : "Grande Vitória / Mata da Praia",
+            "name"       : "Grande Vitória / Mata da Praia",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "213 Grande Vitória",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "213 Mata da Praia",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0214" : {
-            "full_name" : "Bento Ferreira / Goiabeiras via Shopping Vitória"
+            "full_name"  : "Bento Ferreira / Goiabeiras via Shopping Vitória",
+            "name"       : "Bento Ferreira / Goiabeiras",
+            "via"        : "Shopping Vitória",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "214 Bento Ferreira",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "214 Goiabeiras",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0241" : {
-            "full_name" : "Mário Cyprestes / Jardim Camburi via Leitão da Silva"
+            "full_name"  : "Mário Cyprestes / Jardim Camburi via Leitão da Silva",
+            "name"       : "Mário Cyprestes / Jardim Camburi",
+            "via"        : "Leitão da Silva",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "241 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "241 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0290" : {
-            "full_name" : "Mário Cyprestes / Jardim Camburi via Beira Mar"
+            "full_name"  : "Mário Cyprestes / Jardim Camburi via Beira Mar",
+            "name"       : "Mário Cyprestes / Jardim Camburi",
+            "via"        : "Beira Mar",
+            "type"       : ["regular", "selective"],
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "290 Mário Cyprestes",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "290 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0300" : {
-            "full_name" : "Santo André / Curva da Jurema via Reta da Penha (Férias)"
+            "full_name"  : "Santo André / Curva da Jurema via Reta da Penha (Férias)",
+            "name"       : "Santo André / Curva da Jurema",
+            "via"        : "Reta da Penha",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "300 Santo André",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "300 Curva da Jurema",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0302" : {
-            "full_name" : "Santo Antônio / Jardim da Penha"
+            "full_name"  : "Santo Antônio / Jardim da Penha",
+            "name"       : "Santo Antônio / Jardim da Penha",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "302 Santo Antônio",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "302 Jardim da Penha",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "302E" : {
-            "full_name" : "São Pedro / Jardim da Penha (Expresso)"
+            "full_name" : "São Pedro / Jardim da Penha (Expresso)",
+            "name"       : "São Pedro / Jardim da Penha",
+            "via"        : null,
+            "type"       : ["regular", "express"],
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "302E São Pedro",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "302E Jardim da Penha",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0303" : {
-            "full_name" : "Conquista / Goiabeiras"
+            "full_name"  : "Conquista / Goiabeiras",
+            "name"       : "Conquista / Goiabeiras",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "303 Conquista",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "303 Goiabeiras",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0310" : {
-            "full_name" : "Santo Antônio / Jardim Camburi"
+            "full_name"  : "Santo Antônio / Jardim Camburi",
+            "name"       : "Santo Antônio / Jardim Camburi",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "310 Santo Antônio",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "310 Jardim Camburi",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0331" : {
-            "full_name" : "Ilha das Caieiras / Praia do Suá via Shopping Vitória"
+            "full_name"  : "Ilha das Caieiras / Praia do Suá via Shopping Vitória",
+            "name"       : "Ilha das Caieiras / Praia do Suá",
+            "via"        : "Shopping Vitória",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "331 Ilha das Caieiras",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "331 Praia do Suá",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0332" : {
-            "full_name" : "Curva da Jurema / Resistência"
+            "full_name"  : "Curva da Jurema / Resistência",
+            "name"       : "Curva da Jurema / Resistência",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "332 Curva da Jurema",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "332 Resistência",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0333" : {
-            "full_name" : "Ilha das Caieiras / Praia do Suá via Jucutuquara"
+            "full_name" : "Ilha das Caieiras / Praia do Suá via Jucutuquara",
+            "name"       : "Ilha das Caieiras / Praia do Suá",
+            "via"        : "Jucutuquara",
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "333 Ilha das Caieiras",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "333 Praia do Suá",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "333E" : {
-            "full_name" : "Ilha das Caieiras / Praia do Suá (Expresso)"
+            "full_name" : "Ilha das Caieiras / Praia do Suá (Expresso)",
+            "name"       : "Ilha das Caieiras / Praia do Suá",
+            "via"        : null,
+            "type"       : ["regular", "express"],
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "333 Ilha das Caieiras",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "333 Praia do Suá",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         },
         "0370" : {
-            "full_name" : "Resistência / Bento Ferreira"
+            "full_name"  : "Resistência / Bento Ferreira",
+            "name"       : "Resistência / Bento Ferreira",
+            "via"        : null,
+            "type"       : "regular",
+            "final_stop" : {
+                "id"   : null,
+                "name" : ""
+            },
+            "trips" : [
+                {
+                    "headsign" : "370 Resistência",
+                    "shape_id" : null,
+                    "route"  : []
+                },
+                {
+                    "headsign" : "370 Bento Ferreira",
+                    "shape_id" : null,
+                    "route"  : []
+                }
+            ],
+            "timetable" : {
+                "weekdays"  : [],
+                "saturday"  : [],
+                "sunday"    : []
+            },
+            "last_updated" : "2014-03-23"
         }
     }
 }
