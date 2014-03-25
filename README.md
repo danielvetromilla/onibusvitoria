@@ -12,12 +12,12 @@ Permitir a utilização dos dados para visualização de dados, criação de gr�
 
 Você pode ajudar esse projeto corrigindo informações, informando bugs, criando documentação, divulgando, desenolvendo uma API, sugerindo novas ideias, entre outras mais. Alguns exemplos:
 
-- Adicionar tabelas de horário
-- Mapear os trajetos das linhas
-- Corrigir erros de digitação
-- Atualizar informações gerais
-- Desenvolver uma API externa para consulta
-- Criar um website para referência e documentação
+- Pesquisar e atualizar horários, linhas, pontos e etc
+- Mapear os trajetos das linhas de ônibus
+- Corrigir erros de informação ou de digitação
+- Melhorar a estrutura e organização dos arquivos
+- Criar uma API simples para consulta pública
+- Redigir documentação, exemplos e referência
 
 ## Arquivos
 
