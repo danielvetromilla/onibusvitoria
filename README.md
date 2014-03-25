@@ -22,7 +22,6 @@ Você pode ajudar esse projeto corrigindo informações, informando bugs, criand
 ## Arquivos
 
 - [stops.geojson](data/stops.geojson) - localização dos pontos de ônibus da cidade.
-- [timetables.json](data/timetables.json) - tabelas de horários das linhas municipais a partir do ponto final.
 - [streets.json](data/streets.json) - logradouros e linhas disponíveis em cada uma delas
 - [lines.json](data/lines.json) - informações sobre as linhas, viagens de ida/volta e as ruas (itinerário) de cada uma
 - [final_stops.json](data/final_stops.json) - lista das linhas de ônibus com destino no mesmo ponto final
